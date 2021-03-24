@@ -6,6 +6,6 @@ export const addUser = (payload) => ({
 });
 
 export const updateUser = (payload) => ({
-  type: ADD_USER,
+  type: UPDATE_USER,
   payload,
 });

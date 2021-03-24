@@ -1,6 +1,6 @@
 import React from "react";
 
-const Store = React.createContext();
+const Store = React.createContext({});
 Store.displayName = "Store";
 
 export const useStore = () => React.useContext(Store);
