@@ -1,6 +1,6 @@
 import React from "react";
 import { useStore } from "../store/store";
-import { addBooking } from "../store/bookTableReducer";
+import { addBooking } from "../store/actions/bookings.actions";
 
 const BookingForm = () => {
   const [, dispatch] = useStore();
