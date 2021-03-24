@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <>
       <h1>Booking System</h1>
+      <BookingForm />
+      <BookingList />
       <User />
-      {/* <BookingForm /> */}
-      {/* <BookingList /> */}
     </>
   );
 }
