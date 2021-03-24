@@ -1,0 +1,1 @@
+export const ADD_BOOKING = "APP/BOOK_TABLE/ADD_BOOKING";
